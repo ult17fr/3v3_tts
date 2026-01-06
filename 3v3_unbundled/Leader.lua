@@ -850,7 +850,7 @@ Leader.bl_Chani = Helper.createClass(Leader, {
 
         local leaderCard = PlayBoard.findLeaderCard(color)
         local marker = getObjectFromGUID("759054")
-        marker.setPosition(leaderCard.positionToWorld(Leader.bl_Chani.positions[3]) + Vector(0, 0.5, 0))
+        marker.setPosition(leaderCard.positionToWorld(Leader.bl_Chani.positions[1]) + Vector(0, 0.5, 0))
         marker.setInvisibleTo({})
     end
     -- Signet - Fedaykin Manuever - retreat any number of troops OR 1 water 2 card draw

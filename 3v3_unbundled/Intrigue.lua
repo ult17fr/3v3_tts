@@ -72,6 +72,7 @@ function Intrigue.stealIntrigues(color, otherColor, amount)
         card.setRotation(orientedPosition.rotation)
         local cardName = I18N(Helper.getID(card))
         Action.secretLog(I18N("stealIntrigues", { victim = victimName, card = cardName }), color)
+		Action.secretLog(I18N("stealIntrigues", { victim = victimName, card = cardName }), otherColor)
     end)
 end
 
